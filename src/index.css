@@ -407,4 +407,8 @@
 .public-page .modal-overlay p[style*="0.75rem"], .public-page .modal-overlay p[style*="0.72rem"], .public-page .modal-overlay p[style*="0.65rem"] { color: #6b6b6b !important; }
 
 @media (min-width: 640px) { .public-hero { min-height: 340px; } .public-grid { gap: 1rem; } }
+@media (min-width: 1024px) {
+  .public-hero { height: 650px; min-height: 650px; }
+  .public-hero-image { object-position: center center; }
+}
 @media (min-width: 900px) { .public-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } .public-gift-content { min-height: 150px; } }
