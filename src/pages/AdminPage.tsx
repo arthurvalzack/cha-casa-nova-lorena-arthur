@@ -6,7 +6,7 @@ import AdminDashboard from '../components/admin/AdminDashboard'
 import SiteSettingsManager from '../components/admin/SiteSettingsManager'
 import GiftManager from '../components/admin/GiftManager'
 import CategoryManager from '../components/admin/CategoryManager'
-import AnonymousReservationsManager from '../components/admin/AnonymousReservationsManager'
+import ReservationGroupsManager from '../components/admin/ReservationGroupsManager'
 import SurpriseReveal from '../components/admin/SurpriseReveal'
 import {
   LayoutDashboard,
@@ -219,7 +219,7 @@ export default function AdminPage() {
           {activeTab === 'gifts' && <GiftManager />}
           {activeTab === 'categories' && <CategoryManager />}
           {activeTab === 'settings' && <SiteSettingsManager />}
-          {activeTab === 'reservations' && <AnonymousReservationsManager />}
+          {activeTab === 'reservations' && <ReservationGroupsManager />}
           {activeTab === 'surprise' && <SurpriseReveal />}
         </main>
       </div>
